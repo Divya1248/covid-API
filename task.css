@@ -1,0 +1,254 @@
+/*  
+   section{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: center;
+    padding:20px
+   }
+   
+   #search{
+    width:550px;
+    height:35px;
+    border-radius: 5mm;
+   }
+   button{
+    color:white;
+    background-color:blue;
+    border-radius:2.5mm;
+    height:9mm;
+    width:20mm;
+   }
+div{
+    display: flex;
+    width:100%;
+   
+    /* flex-wrap: wrap; 
+}
+
+#temp .userName{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-start;
+    
+
+}
+
+.userName1{
+    /* flex-direction: row; */
+     /* flex-basis: 50%;  
+     display: flex;
+     flex:1;
+   margin-left: 200px;
+   align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+   border:1px solid #111;
+   border-radius: 30px;
+   width: 400px;
+   height: 100px;
+    
+}
+.userName2{
+    display: flex;
+     flex:1;
+   margin-left: 200px;
+   align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+   border:1px solid #111;
+   border-radius: 30px;
+   width: 400px;
+   height: 100px;
+} 
+.user{
+    display: flex;
+   background-color: red;
+   border-radius: 20px;
+   border:1px solid #111;
+    justify-content: center;
+    /* flex-basis: 0%; 
+    padding: 10px 20px;
+    margin-left: 300px;
+    
+}
+#image{
+    width:100px;
+    height:50px;
+}
+#menubar div{
+    display: inline;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+
+}
+ img{
+    background-color: #fff;
+    border-radius: 10px;
+    border:1px solid #111;
+    height: 100px;
+} */
+
+
+body{
+    background-color: #efefef;
+}
+article{
+    width: 80%;
+    height: 40px;
+    margin-left: 100px;
+    
+}
+.text{
+    text-align: center;
+    font-size: 40px;
+    color: #ff416c;
+    padding: 20px;
+    font-weight:bold ;
+}
+.country{
+    font-size: 60px;
+
+}
+.main{
+    display: flex;
+    margin-top: -30px;
+    position: relative;
+
+}
+.covid{
+    align-items: center;
+    justify-content: center ;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    border: 1px solid #8343e6;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    
+}
+
+.country{
+    color: blue;
+}
+
+.pos{
+    background-color:white;
+    color:#ff416c;
+    width: 150px;
+    height: 65px;
+    margin-left: 480px;
+    margin-top: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+    border-radius : 40px;
+    height: 80px;
+    border: 2px solid #ff416c;
+}
+.neg{
+    background-color: white;
+    color: #8343e6;
+    border: 2px solid #8343e6;
+    width: 150px;
+    height: 65px;
+    margin-top: 77px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+    border-radius: 40px;
+    height: 80px;
+}
+.positive1{
+    margin-top: -15px;
+}
+.positive{
+    font-size: 20px;
+}
+.Deaths1{
+    margin-top: -15px;
+}
+.Deaths{
+    font-size: 20px;
+}
+
+.second{
+    display: flex;
+    margin-top: -15px;
+}
+.active{
+    background-color:white;
+    width: 150px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    border-radius : 40px;
+    height: 80px;
+}
+.Active{
+    margin-top: -15px;
+}
+.Active1{
+    font-size: 20px;
+}
+.recover{
+    background-color:white;
+    width: 150px;
+   margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    border-radius : 40px;
+    height: 80px;
+}
+.recovered{
+    margin-top: -15px;
+}
+.recovered1{
+    font-size: 20px;
+}
+.po{
+    background-color:white;
+    width: 150px;
+   margin-left: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    border-radius : 40px;
+    height: 80px;
+}
+.positiv1{
+    margin-top: -15px;
+}
+.positiv{
+    font-size: 20px;
+}
+.third{
+    display: flex;
+    margin-top: 25px;
+}
+
